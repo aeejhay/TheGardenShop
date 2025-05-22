@@ -1,0 +1,23 @@
+$(document).ready(function(){
+		  $("#all").click(function(){
+			$(".plant").show();
+			$(".veg").show();
+			$(".fruit").show();
+		  });
+		  $("#plants").click(function(){
+			$(".plant").show();
+			$(".veg").hide();
+			$(".fruit").hide();			
+		  });
+		  $("#fruits").click(function(){
+			$(".plant").hide();
+			$(".veg").hide();			
+			$(".fruit").show();
+		  });
+		  $("#vegetables").click(function(){
+			$(".plant").hide();
+			$(".veg").show();
+			$(".fruit").hide();			
+		  });
+		  
+		});

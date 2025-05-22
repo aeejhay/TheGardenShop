@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en-US"><!-- Opening HTML tag -->
+	<head><!-- Opening HEAD tag -->
+		<title>The Garden Shop | Product Page</title><!-- Title -->
+		<meta charset="utf-8">
+		
+		<!-- Google Font -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Norican&display=swap" rel="stylesheet">
+		
+		<!-- Bootstrap Minimize CSS AND JS -->
+		<!--Bootstrap CSS-->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<!--Bootstrap Javascript-->
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		
+		<!-- My External CSS -->
+		<link rel="stylesheet" href="./css/style.css">
+		<!-- Favicon -->
+		<link rel="icon" type="image/x-icon" href="./images/favicon.png">
+		
+		<!-- My Jquery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+		<script src="./js/myScript.js"></script>
+	</head><!--End HEAD tag -->
+	
+	<body><!-- Opening Body tag -->
+	
+		<!-- Small Top Menu -->
+		<div id="top-menu">
+			<div class="container">
+				<div id="email">
+					<svg xmlns="http://www.w3.org/2000/svg" height="15" width="15" viewBox="0 0 512 512">
+					<!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+					<path fill="#ffffff" d="M64 112c-8.8 0-16 7.2-16 16l0 22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1l0-22.1c0-8.8-7.2-16-16-16L64 112zM48 212.2L48 384c0 8.8 7.2 16 16 16l384 0c8.8 0 16-7.2 16-16l0-171.8L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64l384 0c35.3 0 64 28.7 64 64l0 256c0 35.3-28.7 64-64 64L64 448c-35.3 0-64-28.7-64-64L0 128z"/></svg> <a href="mailto:hello@thegardenshop.ie">hello@thegardenshop.ie</a>
+				</div>
+				<div id="free-shipping">
+					<p> Free Shipping for all Order of €99</p>
+				</div>
+				<div class="alignright" id="contact-support">
+					<p>Support Contact 24/7 <svg xmlns="http://www.w3.org/2000/svg" height="15" width="15" viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"/></svg> <a href="tel:018040300">018040300</a></p>
+				</div>
+			</div>
+		</div>
+		
+		
+		<!-- Bootstrap Navigation / Menu -->
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container">
+			  <a class="navbar-brand" href="index.html"><img src="./images/GardenShop.png" alt="The Garden Shop Logo"></a>
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+				<div class="navbar-nav">
+				  <a class="nav-item nav-link" href="index.html">Home</a>
+				  <a class="nav-item nav-link active" href="products.html">Products</a>
+				  <a class="nav-item nav-link" href="contact.html">Contact Us</a>
+				</div>
+			  </div>
+			  <div id="top-sm">
+				<ul class="social-medias">
+					<li><a href="https://www.facebook.com" target="_blank"><img src="./images/facebook.png" alt="Facebook Icon"></a></li>
+					<li><a href="https://www.instagram.com" target="_blank"><img src="./images/instagram.png" alt="Instagram Icon"></a></li>
+					<li><a href="https://www.tiktok.com" target="_blank"><img src="./images/tiktok.png" alt="Tiktok Icon"></a></li>
+				</ul>
+				
+			  </div>
+			</div>
+		</nav>
+		
+		<!-- Product Section-->
+		<div id="product-section" class="container">
+			<div class="row">
+				<div class="col-2">
+					<div class="breadcrumbs">
+						<p><a href="index.html">Home</a> &raquo; Product Page</p>
+					</div>
+					<h3>Categories</h3>
+					<ul id="categories">
+						<li><button id="all">All</button>
+						<li><button id="plants">Plants</button>
+						<li><button id="fruits">Fruits</button>
+						<li><button id="vegetables">Vegetables</button>
+					</ul>
+				</div>
+				<div class="col">
+					<h2 class="aligncenter">The Garden Shop Products</h2>
+					<!-- Product Row 1 -->
+					<div class="row plant">
+						<div class="col">
+							<div class="card">
+							  <img class="card-img-top" src="./images/anemone-blubs-mix-blue-shades.jpg" alt="Anemone Bulb Colorful Plant">
+							  <div class="card-body">
+								<p class="card-text">Pack of Colourful Anemone Bulbs</p>
+								<p class="price">€4.19</p>
+								<input type="number" id="qty1" name="qty" value="1">
+								<button>Buy Now</button>
+							  </div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+							  <img class="card-img-top" src="./images/artichoke-plant.jpg" alt="Image of Artchoke Plant">
+							  <div class="card-body">
+								<p class="card-text">Grow Your Own Tasty Artichokes</p>
+								<p class="price">€8.99</p>
+								<input type="number" id="qty2" name="qty" value="1">
+								<button>Buy Now</button>
+							  </div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+							  <img class="card-img-top" src="./images/chives-plant.jpg" alt="Image of a chives plant">
+							  <div class="card-body">
+								<p class="card-text">Potted Chive Plant in Lavender Color</p>
+								<p class="price">€8.40</p>
+								<input type="number" id="qty3" name="qty" value="1">
+								<button>Buy Now</button>
+							  </div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+							  <img class="card-img-top" src="./images/echeveria_plant.jpg" alt="Image of Echeveria Plant">
+							  <div class="card-body">
+								<p class="card-text">Potted Echeveria Indoor Plant</p>
+								<p class="price">€6.50</p>
+								<input type="number" id="qty4" name="qty" value="1">
+								<button>Buy Now</button>
+							  </div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+							  <img class="card-img-top" src="./images/mixed-cactus-plants.jpg" alt="Image of Mixed Cactus Plants">
+							  <div class="card-body">
+								<p class="card-text">Cactus Plants in Terracotta Pot</p>
+								<p class="price">€7.00</p>
+								<input type="number" id="qty5" name="qty" value="1">
+								<button>Buy Now</button>
+							  </div>
+							</div>
+						</div>					
+					</div>
+					<hr class="plant">
+					<!-- Product Row 2-->					
+					<div class="row veg">
+						<div class="col">
+							<div class="card">
+							  <img class="card-img-top" src="./images/oregano-plant.jpg" alt="A picture of an oregano plant">
+							  <div class="card-body">
+								<p class="card-text">Oregano Plant</p>
+								<p class="price">€11.19</p>
+								<input type="number" id="qty6" name="qty" value="1">
+								<button>Buy Now</button>
+							  </div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+							  <img class="card-img-top" src="./images/peppermint-plant.jpg" alt="Image of Peppermint Plant">
+							  <div class="card-body">
+								<p class="card-text">Peppermint Plant</p>
+								<p class="price">€10.30</p>
+								<input type="number" id="qty7" name="qty" value="1">
+								<button>Buy Now</button>
+							  </div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+							  <img class="card-img-top" src="./images/coriander-plant.jpg" alt="Image of a Coriander">
+							  <div class="card-body">
+								<p class="card-text">Coriander Plant</p>
+								<p class="price">€7.40</p>
+								<input type="number" id="qty8" name="qty" value="1">
+								<button>Buy Now</button>
+							  </div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+							  <img class="card-img-top" src="./images/rhubarb-plant.jpg" alt="Image of Rhubarb Plant">
+							  <div class="card-body">
+								<p class="card-text">Rhubarb Plant</p>
+								<p class="price">€12.90</p>
+								<input type="number" id="qty9" name="qty" value="1">
+								<button>Buy Now</button>
+							  </div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+							  <img class="card-img-top" src="./images/potted-thyme-plant.jpg" alt="Image of Thyme Plant">
+							  <div class="card-body">
+								<p class="card-text">Thyme Plant</p>
+								<p class="price">€9.80</p>
+								<input type="number" id="qty10" name="qty" value="1">
+								<button>Buy Now</button>
+							  </div>
+							</div>
+						</div>					
+					</div>
+					<hr class="veg">
+					<!-- Product Row 3-->					
+					<div class="row fruit">
+						<div class="col">
+							<div class="card">
+							  <img class="card-img-top" src="./images/tayberry-plants.jpg" alt="A picture of Tayberry">
+							  <div class="card-body">
+								<p class="card-text">Tay Berry</p>
+								<p class="price">€5.20</p>
+								<input type="number" id="qty11" name="qty" value="1">
+								<button>Buy Now</button>
+							  </div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+							  <img class="card-img-top" src="./images/grape-vine-plants.jpg" alt="Image of Grape Vine">
+							  <div class="card-body">
+								<p class="card-text">Grape Vine</p>
+								<p class="price">€5.20</p>
+								<input type="number" id="qty12" name="qty" value="1">
+								<button>Buy Now</button>
+							  </div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+							  <img class="card-img-top" src="./images/strawberry-plant-1.jpg" alt="Image of a Strawberry">
+							  <div class="card-body">
+								<p class="card-text">Strawberry Fruits</p>
+								<p class="price">€5.20</p>
+								<input type="number" id="qty13" name="qty" value="1">
+								<button>Buy Now</button>
+							  </div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+							  <img class="card-img-top" src="./images/lemon-tree.jpg" alt="Image of Lemon Tree">
+							  <div class="card-body">
+								<p class="card-text">Lemon Tree</p>
+								<p class="price">€5.20</p>
+								<input type="number" id="qty14" name="qty" value="1">
+								<button>Buy Now</button>
+							  </div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+							  <img class="card-img-top" src="./images/redcurrant-canes.jpg" alt="Image of Redcurrant Canes">
+							  <div class="card-body">
+								<p class="card-text">Redcurrant Canes</p>
+								<p class="price">€5.20</p>
+								<input type="number" id="qty15" name="qty" value="1">
+								<button>Buy Now</button>
+							  </div>
+							</div>
+						</div>					
+					</div>
+					<hr class="fruit">
+					<!-- Product Row 4-->					
+					<div class="row fruit">
+						<div class="col">
+							<div class="card">
+							  <img class="card-img-top" src="./images/blackberry-canes.jpg" alt="A picture of Blackberry Canes">
+							  <div class="card-body">
+								<p class="card-text">Blackberry Canes</p>
+								<p class="price">€11.20</p>
+								<input type="number" id="qty16" name="qty" value="1">
+								<button>Buy Now</button>
+							  </div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+							  <img class="card-img-top" src="./images/blackcurrant-canes.jpg" alt="Image of Blackcurrant Canes">
+							  <div class="card-body">
+								<p class="card-text">Blackcurrant Canes</p>
+								<p class="price">€9.50</p>
+								<input type="number" id="qty17" name="qty" value="1">
+								<button>Buy Now</button>
+							  </div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+							  <img class="card-img-top" src="./images/gooseberry-canes.jpg" alt="Image of a Gooseberry Canes">
+							  <div class="card-body">
+								<p class="card-text">Gooseberry Canes</p>
+								<p class="price">€7.80</p>
+								<input type="number" id="qty18" name="qty" value="1">
+								<button>Buy Now</button>
+							  </div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+							  <img class="card-img-top" src="./images/grape.jpg" alt="Image of Grape Vine">
+							  <div class="card-body">
+								<p class="card-text">Grape Vine</p>
+								<p class="price">€3.20</p>
+								<input type="number" id="qty19" name="qty" value="1">
+								<button>Buy Now</button>
+							  </div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+							  <img class="card-img-top" src="./images/raspberry-canes.jpg" alt="Image of Raspberry Canes">
+							  <div class="card-body">
+								<p class="card-text">Raspberry Canes</p>
+								<p class="price">€5.20</p>
+								<input type="number" id="qty20" name="qty" value="1">
+								<button>Buy Now</button>
+							  </div>
+							</div>
+						</div>					
+					</div>
+					<hr class="fruit">
+					<!-- Product Row 5-->					
+					<div class="row plant">
+						<div class="col">
+							<div class="card">
+							  <img class="card-img-top" src="./images/lobelia-plant-starship-scarlet.jpg" alt="A picture of Lobelia Starship Scarlet">
+							  <div class="card-body">
+								<p class="card-text">Lobelia Starship Scarlet</p>
+								<p class="price">€8.40</p>
+								<input type="number" id="qty21" name="qty" value="1">
+								<button>Buy Now</button>
+							  </div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+							  <img class="card-img-top" src="./images/magnolia-stellata-tree.jpg" alt="Image of Magnolia Stellata">
+							  <div class="card-body">
+								<p class="card-text">Magnolia Stellata</p>
+								<p class="price">€6.90</p>
+								<input type="number" id="qty22" name="qty" value="1">
+								<button>Buy Now</button>
+							  </div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+							  <img class="card-img-top" src="./images/Verbena-plant.jpg" alt="Image of a Verbena Plant">
+							  <div class="card-body">
+								<p class="card-text">Verbena Plant</p>
+								<p class="price">€5.20</p>
+								<input type="number" id="qty23" name="qty" value="1">
+								<button>Buy Now</button>
+							  </div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+							  <img class="card-img-top" src="./images/crocus-bulbs-pickwick-2.jpg" alt="Image of Crocus Bulbs">
+							  <div class="card-body">
+								<p class="card-text">Crocus Bulbs</p>
+								<p class="price">€8.80</p>
+								<input type="number" id="qty24" name="qty" value="1">
+								<button>Buy Now</button>
+							  </div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+							  <img class="card-img-top" src="./images/golden-harvest-daffodil-bulbs.jpg" alt="Image of Golden Harvest Daffodil Bulbs">
+							  <div class="card-body">
+								<p class="card-text">Golden Harvest Daffodil Bulbs</p>
+								<p class="price">€11.20</p>
+								<input type="number" id="qty25" name="qty" value="1">
+								<button>Buy Now</button>
+							  </div>
+							</div>
+						</div>					
+					</div>
+					<hr class="plant">
+					<!-- Product Row 6-->					
+					<div class="row veg">
+						<div class="col">
+							<div class="card">
+							  <img class="card-img-top" src="./images/Kiwi-plant_78c9-4l.jpg" alt="A picture of Kiwi Plant">
+							  <div class="card-body">
+								<p class="card-text">Kiwi Plant</p>
+								<p class="price">€5.20</p>
+								<input type="number" id="qty26" name="qty" value="1">
+								<button>Buy Now</button>
+							  </div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+							  <img class="card-img-top" src="./images/lemon-balm-plant.jpg" alt="Image of Lemon Balm">
+							  <div class="card-body">
+								<p class="card-text">Lemon Balm</p>
+								<p class="price">€8.20</p>
+								<input type="number" id="qty27" name="qty" value="1">
+								<button>Buy Now</button>
+							  </div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+							  <img class="card-img-top" src="./images/rosemary-plant.jpg" alt="Image of a Rosemary Plant">
+							  <div class="card-body">
+								<p class="card-text">Rosemary Plant</p>
+								<p class="price">€3.20</p>
+								<input type="number" id="qty28" name="qty" value="1">
+								<button>Buy Now</button>
+							  </div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+							  <img class="card-img-top" src="./images/Basil_Plant.jpg" alt="Image of Basil Plant">
+							  <div class="card-body">
+								<p class="card-text">Basil Plant</p>
+								<p class="price">€11.20</p>
+								<input type="number" id="qty29" name="qty" value="1">
+								<button>Buy Now</button>
+							  </div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card">
+							  <img class="card-img-top" src="./images/goji-berry-plant.jpg" alt="Image of Goji Berry">
+							  <div class="card-body">
+								<p class="card-text">Goji Berry</p>
+								<p class="price">€9.20</p>
+								<input type="number" id="qty30" name="qty" value="1">
+								<button>Buy Now</button>
+							  </div>
+							</div>
+						</div>					
+					</div>
+					<hr class="veg">
+				</div>
+			</div>
+		</div>
+		
+		<!-- Footer -->
+		<div id="footer" class="container-fluid">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<ul id="footer-details">
+							<li><a class="navbar-brand" href="index.html"><img src="./images/GardenShop.png" alt="The Garden Shop Footer Logo"></a></li>
+							<li>Address: Glasnevin, Dublin 9, D09 VY63</li>
+							<li>Tel No: <a href="tel:018040300">018040300</a></li>
+							<li>Email: <a href="mailto:hello@thegardenshop.ie">hello@thegardenshop.ie</a></li>
+						</ul>
+					</div>
+					<div class="col">
+						<h4>Useful Links</h4>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="products.html">Products</a></li>
+							<li><a href="contact.html">Contact</a></li>
+							<li><a href="#">Privacy Policy</a></li>
+							<li><a href="#">Terms & Condition</a></li>
+						</ul>
+					</div>
+					<div class="col">
+						<h4>Follow Us:</h4>
+						<ul class="social-medias">
+							<li><a href="https://www.facebook.com" target="_blank"><img src="./images/facebook.png" alt="Facebook Icon"></a></li>
+							<li><a href="https://www.instagram.com" target="_blank"><img src="./images/instagram.png" alt="Instagram Icon"></a></li>
+							<li><a href="https://www.tiktok.com" target="_blank"><img src="./images/tiktok.png" alt="Tiktok Icon"></a></li>
+						</ul>
+						<table id="opening-hours">
+						  <tr>
+							<th>Opening hours</th>
+							<th></th>
+						  </tr>
+						  <tr>
+							<td>Monday- Friday</td>
+							<td>9:00-9:00pm</td>
+						  </tr>
+						  <tr>
+							<td>Saturday</td>
+							<td>10:00-2:00pm</td>
+						  </tr>
+						  <tr>
+							<td>Sunday</td>
+							<td>Closed</td>
+						  </tr>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- Copyright and other footer text -->
+		<div id="bottom-footer">
+			<div class="container">
+				<p class="floatleft">All Rights Reserved &copy; 2024</p>
+				<p class="floatright">Class Assessment Submitted by Adrian M Jandongan [HDCSDEV_INT]</p>
+			</div>
+		</div>
+		
+		
+		
+		
+		
+	</body><!-- Closing BODY tag -->
+
+</html><!-- Closing HTML tag -->
