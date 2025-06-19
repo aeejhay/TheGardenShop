@@ -12,7 +12,7 @@ Welcome to the Garden Shop Website — a simple and beautiful online platform de
 - Contact Us page with basic form layout
 
 ## 📂 Folder Structure
-
+```
 /garden-shop/
 │
 ├── index.html # Homepage
@@ -25,7 +25,7 @@ Welcome to the Garden Shop Website — a simple and beautiful online platform de
 │ └── styles/ # CSS files
 │
 └── script.js # Main JavaScript file
-
+```
 
 ## 🎨 Tech Stack
 
